@@ -44,3 +44,13 @@ body{
     top: 0;
     right: 0;
 }
+
+#info {
+    border: 1px solid rgb(117, 10, 10);  
+    width: 70vw; 
+    height: 35vh; 
+    margin: 0; 
+    position: absolute; 
+    top: 9vh;
+    left: 0;
+}
