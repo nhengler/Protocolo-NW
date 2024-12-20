@@ -32,5 +32,15 @@ body{
     margin: 0; /* remove a margem */
     position: absolute; /* posiciona em relação ao pai */
     top: 0;
-    right: 290px;
+    right: 220px;
+}
+
+#horaRecebimento{
+    border: 1px solid rgb(117, 10, 10);  
+    width: 12vw; /* 25% da largura da viewport */
+    height: 6vh; /* 6% da altura da viewport */
+    margin: 0; /* remove a margem */
+    position: absolute; /* posiciona em relação ao pai */
+    top: 0;
+    right: 0;
 }
