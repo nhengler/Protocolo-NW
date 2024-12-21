@@ -16,9 +16,9 @@ body{
 
 #conjunto{
     border: 1px solid rgb(117, 10, 10);  
-    width: 25vw; /* 25% da largura da viewport */
-    height: 6vh; /* 6% da altura da viewport */
-    margin: 0; /* remove a margem */
+    width: 25vw; 
+    height: 6vh; 
+    margin: 0; 
     position: absolute; /* posiciona em relação ao pai */
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@ body{
     margin: 0; 
     position: absolute; 
     top: 0;
-    right: 220px;
+    right: 250px;
 }
 
 #horaRecebimento{
@@ -54,3 +54,43 @@ body{
     top: 9vh;
     left: 0;
 }
+
+    #nome{
+        border: 1px solid rgb(10, 117, 28);
+        margin: 10px
+}
+
+    #remetente{
+        border: 1px solid rgb(10, 117, 28);
+        margin: 10px
+    }
+
+    #conteudo{
+        border: 1px solid rgb(10, 117, 28);
+        margin: 10px
+    }
+
+    #quantidade{
+        border: 1px solid rgb(10, 117, 28);
+        margin: 10px
+    }
+
+        #nomeInput{
+            width: 25vw;
+            margin: 10px
+        }
+
+        #remetenteInput{
+            width: 25vw;
+            margin: 10px
+        }
+
+        #conteudoInput{
+            width: 15vw;
+            margin: 10px
+        }
+
+        #quantidadeInput{
+            width: 3vw;
+            margin: 10px
+        }
