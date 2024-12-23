@@ -10,9 +10,8 @@
 <body>
     <div id="protocol"> <!--div principal-->
         
-        
         <div id="conjunto">
-            <h3>protocolo de entrega</h3>
+            <h1><strong> Protocolo de entrega </strong></h1>
         </div> <!--conjunto recebedor-->
             
         <div id="data">
@@ -25,28 +24,32 @@
         
         <div id="info">
             <div id="nome">
-                <span>Nome: </span>
+                <span><strong>Nome / CJ: </strong></span>
                 <input type="text" id="nomeInput" name="nome"> <hr>
             </div>
             
             <div id="remetente">
-                <span>Remetente: </span>
+                <span><strong>Remetente: </strong></span>
                 <input type="text" id="remetenteInput" name="remetente"> <hr>
             </div>
             
             <div id="conteudo">
-                <span>Conteúdo: </span>
+                <span><strong>Conteúdo: </strong></span>
                 <input type="text" id="conteudoInput" name="conteudo"> <hr>
             </div>
             
             <div id="quantidade">
-                <span>Quantidade: </span>
-                <input type="text" id="quantidadeInput" name="quantidade"> <hr>
+                <span><strong>Quantidade: </strong></span> 
+                <input type="text" id="quantidadeInput" name="quantidade"> <button id="ok"> OK </button> <hr>
+                <span><strong>Retirado por: </strong></span>
+                <input type="text" id="retirada" name="novoInput"> <button id="ok"> OK </button> 
             </div>
-        </div> <!--nome, remetente, conteúdo e quantidade-->
-        
-        <div id="status"></div> <!--data, hora e confirmação do recebimento-->
 
+            <div id="status">
+                Retirado em 00/00/0000 às 00:00 (OBS: isso só deve aparecer quando uma encomenda entregue for consultada)
+            </div> 
+        </div> <!--nome, remetente, conteúdo, quantidade e status da entrega-->
+        
     </div>
 
 
