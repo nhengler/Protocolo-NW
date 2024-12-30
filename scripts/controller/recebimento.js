@@ -6,9 +6,11 @@ function atualizarDataHora() {
 
     const horaFormatada = agora.toLocaleTimeString('pt-BR'); // formata a hora no formato "hh:mm:ss"
 
-    const elementoDataHora = document.getElementById('data_hora'); // localiza a div onde a data e a hora serão exibidas
+    const elementoData = document.getElementById('data'); // localiza a div onde a data e a hora serão exibidas
+    const elementoHora = document.getElementById('hora');
 
-    elementoDataHora.textContent = `${dataFormatada} ${horaFormatada}`; // define o conteúdo da div como a data e a hora formatadas
+    elementoData.textContent = `Data: ${dataFormatada}` ; // define o conteúdo da div como a data formatada
+    elementoHora.textContent = `Hora: ${horaFormatada}`;
 }
 
 setInterval(atualizarDataHora, 1000);
