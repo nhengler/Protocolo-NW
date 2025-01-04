@@ -110,11 +110,21 @@ body{
             margin: 10px
         }
 
-            #retirada{
+        #retirada{
                 width: 25vw;
                 margin: 10px
-            }
+        }
 
     #status{
-        border: 1px solid rgb(11, 105, 42);
+        position: absolute;
+        margin: 10px;
+        padding-top: 20px; /* usado para posicionar a div na extremidade do canto inferior esquerdo*/
+        width: 78vw;
     }
+
+        #retirados{
+            position: absolute;
+            left: 73vw;
+        }
+
+

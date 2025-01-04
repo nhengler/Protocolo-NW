@@ -9,17 +9,14 @@
 </head>
 <body>
     <div id="protocol"> <!--div principal-->
-        
         <div id="conjunto">
             <h1><strong> Protocolo de entrega </strong></h1>
         </div> <!--conjunto recebedor-->
             
-        <div id="data">
-            
+        <div id="data">   
         </div> <!--data de recebimento-->
 
         <div id="hora">
-
         </div> <!--hora de recebimento-->
         
         <div id="info">
@@ -42,15 +39,16 @@
                 <span><strong>Quantidade: </strong></span> 
                 <input type="text" id="quantidadeInput" name="quantidade"> <button id="ok"> OK </button> <hr>
                 <span><strong>Retirado por: </strong></span>
-                <input type="text" id="retirada" name="novoInput"> <button id="ok"> OK </button> 
+                <input type="text" id="retirada" name="retirada"> <button id="ok"> OK </button> 
             </div>
 
             <div id="status">
-                Retirado em 00/00/0000 às 00:00 (OBS: isso só deve aparecer quando uma encomenda entregue for consultada)
+                <button id="recebidos" onclick="window.location.href='recebidos.html'">Recebidos</button>
+                <button id="retirados" onclick="window.location.href='retirados.html'">Retirados</button>
             </div> 
         </div> <!--nome, remetente, conteúdo, quantidade e status da entrega-->
-        
     </div>
+
 <script src="scripts/controller/recebimento.js"></script>
 
 </body>
